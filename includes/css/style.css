@@ -1,0 +1,108 @@
+.reg {
+  background: #ED3655;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem 4rem;
+  border: 1px solid #ED3655;
+  border-radius: 4rem; }
+
+body {
+  direction: rtl; }
+
+.navbar {
+  background: #ECECEC !important; }
+  .navbar .svg-inline--fa {
+    color: #ED3655; }
+  .navbar form {
+    position: relative;
+    padding-right: 3rem; }
+    .navbar form svg.svg-inline--fa.fa-search.fa-w-16 {
+      position: absolute;
+      left: 1rem; }
+    .navbar form input {
+      background: #F3F3F3; }
+  .navbar .form-control:focus {
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+  .navbar li.nav-item {
+    padding-right: 3rem; }
+
+/*
+main
+*/
+.main {
+  background: url("../images/header.png") no-repeat;
+  height: 90vh; }
+  .main .caption {
+    text-align: center;
+    padding-top: 10rem; }
+    .main .caption h1 {
+      font-size: 5rem;
+      font-weight: 500;
+      transform: rotateZ(-25deg);
+      padding-bottom: 2rem;
+      letter-spacing: 2px; }
+    .main .caption h4 {
+      padding: 1rem 0; }
+
+/*
+Resturant
+*/
+.resturant {
+  background: url("../images/Group 1034-min.png"); }
+  .resturant h2 {
+    text-align: center;
+    color: #240040;
+    letter-spacing: 1;
+    padding: 1rem 0; }
+  .resturant .search-res {
+    padding: 0 3rem;
+    margin-bottom: 1rem; }
+    .resturant .search-res form {
+      position: relative; }
+      .resturant .search-res form svg:not(:root).svg-inline--fa {
+        position: absolute;
+        top: 40%;
+        left: 32%;
+        color: #ED3655; }
+  .resturant input {
+    width: 75% !important;
+    height: 4rem;
+    background: #F6F6F6;
+    border-radius: 1.5rem; }
+  .resturant .res-det {
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    position: relative; }
+    .resturant .res-det img {
+      width: 40%; }
+    .resturant .res-det .info {
+      width: 60%;
+      float: left;
+      height: 100%; }
+      .resturant .res-det .info h3 {
+        color: #ED3655;
+        letter-spacing: 1;
+        padding-bottom: 1rem; }
+      .resturant .res-det .info p {
+        padding-bottom: 0;
+        padding-top: 1rem;
+        margin-bottom: 0;
+        font-size: 1.111rem; }
+    .resturant .res-det .avail {
+      position: absolute;
+      top: 50%;
+      left: 10;
+      font-size: 1.2rem; }
+      .resturant .res-det .avail .online {
+        background: green;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
