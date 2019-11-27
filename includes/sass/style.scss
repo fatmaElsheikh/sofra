@@ -16,6 +16,7 @@ body {
 
 .navbar {
     background: #ECECEC !important;
+    z-index: 2;
     .svg-inline--fa {
         color: $mainColor;
     }
@@ -220,5 +221,107 @@ footer {
         svg {
             margin-left: 1.5rem;
         }
+    }
+}
+
+
+/*
+shopping cart
+*/
+
+.cart {
+    h2 {
+        color: $secColor;
+        letter-spacing: 1;
+        margin-top: 3rem;
+    }
+    .caption {
+        background: url(../images/cart-bg.png) no-repeat;
+        margin-bottom: 3rem;
+        button {
+            @extend .reg;
+            margin-top: 6rem;
+        }
+    }
+    .del {
+        @extend .reg;
+        width: 50%;
+        display: block;
+        margin: 2rem auto !important;
+    }
+    .card {
+        margin: 4rem auto;
+        border-radius: 2rem;
+        padding: 2rem;
+        box-shadow: -2px 1px 10px 0px #ccc;
+        h5 {
+            color: $secColor;
+            letter-spacing: 1;
+        }
+        .card-img {
+            border-radius: 1rem;
+        }
+        span {
+            padding: 0 0.75rem;
+            background: #ECECEC;
+            svg {
+                color: $mainColor;
+            }
+        }
+    }
+}
+
+
+/*
+ADD OFFER
+*/
+
+.add {
+    color: $mainColor;
+    margin-top: 2rem;
+}
+
+.add-offer {
+    width: 60%;
+    margin: 4rem auto;
+    background: #ECECEC;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: -2px 1px 10px 0px #ccc;
+    img {
+        display: block;
+        margin: 1rem auto;
+        width: 25%;
+        box-shadow: -2px 1px 10px 0px #ccc;
+    }
+    input,
+    textarea {
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+        background: #F5F5F5;
+        color: #ECECEC;
+        border: 0;
+        border-radius: 1rem;
+    }
+    span {
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+        background: #E5E5E5;
+        display: inline-block;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        color: $secColor;
+        svg {
+            margin-right: 1rem;
+        }
+    }
+    button {
+        @extend .reg;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        background: linear-gradient(#E32F52, #B2134D);
+        padding: 0.75rem 6rem;
     }
 }

@@ -1,0 +1,18 @@
+include includes/sty
+include includes/header
+h2(class="add text-center")
+    | اضافة منتج جديد
+div(class="add-offer")
+    img(src="includes/images/default-image.jpg", alt="alt")
+    form
+        input(type="text" class="form-control" placeholder="اسم المنتج")
+        textarea(name="", cols="30", rows="3", class="form-control" , placeholder="وصف مختصر")
+        input(type="text " , class="form-control" , placeholder="السعر")
+        input(type="text" class="form-control" placeholder="مدة التجهيز")
+        div(class="text-center") 
+            span من <i class="far fa-calendar-alt"></i> 
+            span الى <i class="far fa-calendar-alt"></i>
+        button اضافة    
+    
+include includes/footer
+include includes/scrp
