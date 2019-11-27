@@ -1,4 +1,4 @@
-.reg {
+.reg, .offers .left .caption button {
   background: #ED3655;
   color: #fff;
   font-size: 1.5rem;
@@ -51,7 +51,8 @@ main
 Resturant
 */
 .resturant {
-  background: url("../images/Group 1034-min.png"); }
+  background: url("../images/Group 1034-min.png");
+  padding-bottom: 2rem; }
   .resturant h2 {
     text-align: center;
     color: #240040;
@@ -104,5 +105,65 @@ Resturant
         width: 15px;
         height: 15px;
         display: inline-block; }
+
+.offers {
+  background: #fff; }
+  .offers .right img {
+    padding: 6rem 2rem;
+    width: 90%;
+    height: 28rem; }
+  .offers .left {
+    background: url("../images/Group 1038.jpg");
+    margin: 7rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 2rem; }
+    .offers .left .caption {
+      background: linear-gradient(rgba(233, 66, 94, 0.5), rgba(149, 139, 140, 0.5));
+      width: 100%;
+      height: 100%;
+      border-radius: 2rem;
+      padding: 2rem; }
+      .offers .left .caption button {
+        display: block;
+        text-align: center;
+        margin: 1rem auto; }
+
+/* 
+OUR APp
+*/
+.our-app {
+  background: url("../images/Group 1035.png") no-repeat;
+  background-size: cover; }
+  .our-app button {
+    margin: 10rem;
+    background: url("../images/download button-min.png") no-repeat;
+    background-size: contain;
+    border: 0;
+    padding: 1rem 6rem;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 1; }
+  .our-app h2 {
+    padding: 4rem 4rem 0 0; }
+
+/*
+footer
+*/
+footer {
+  background: url("../images/footer bg.png") no-repeat;
+  background-size: cover;
+  padding: 2rem; }
+  footer .left img {
+    float: left;
+    width: 50%;
+    margin-top: 3rem; }
+  footer .right p {
+    letter-spacing: 1;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem; }
+  footer .right svg {
+    margin-left: 1.5rem; }
 
 /*# sourceMappingURL=style.css.map */

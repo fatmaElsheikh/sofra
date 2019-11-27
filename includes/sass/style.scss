@@ -1,5 +1,6 @@
 $mainColor:#ED3655;
 $secColor: #240040;
+$linear: linear-gradient(rgba(233, 66, 94, 0.5), rgba(149, 139, 140, 0.5));
 .reg {
     background: $mainColor;
     color: #fff;
@@ -71,6 +72,8 @@ Resturant
 
 .resturant {
     background: url('../images/Group\ 1034-min.png');
+    padding-bottom: 2rem;
+    ;
     h2 {
         text-align: center;
         color: $secColor;
@@ -133,6 +136,89 @@ Resturant
                 height: 15px;
                 display: inline-block;
             }
+        }
+    }
+}
+
+.offers {
+    background: #fff;
+    .right {
+        img {
+            padding: 6rem 2rem;
+            width: 90%;
+            height: 28rem;
+        }
+    }
+    .left {
+        background: url('../images/Group 1038.jpg');
+        margin: 7rem 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #fff;
+        border-radius: 2rem;
+        .caption {
+            background: $linear;
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+            padding: 2rem;
+            button {
+                display: block;
+                text-align: center;
+                @extend .reg;
+                margin: 1rem auto;
+            }
+        }
+    }
+}
+
+
+/* 
+OUR APp
+*/
+
+.our-app {
+    background: url('../images/Group\ 1035.png') no-repeat;
+    background-size: cover;
+    button {
+        margin: 10rem;
+        background: url('../images/download\ button-min.png') no-repeat;
+        background-size: contain;
+        border: 0;
+        padding: 1rem 6rem;
+        color: #fff;
+        font-size: 1.5rem;
+        letter-spacing: 1;
+    }
+    h2 {
+        padding: 4rem 4rem 0 0;
+    }
+}
+
+
+/*
+footer
+*/
+
+footer {
+    background: url('../images/footer\ bg.png') no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    .left {
+        img {
+            float: left;
+            width: 50%;
+            margin-top: 3rem;
+        }
+    }
+    .right {
+        p {
+            letter-spacing: 1;
+            margin-bottom: 3rem;
+            margin-top: 1.5rem;
+        }
+        svg {
+            margin-left: 1.5rem;
         }
     }
 }
