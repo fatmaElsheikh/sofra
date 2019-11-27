@@ -1,0 +1,30 @@
+include includes/sty
+include includes/header
+
+div(class="add-offer log")
+    div(class="user")
+        img(src="includes/images/use-img.png", alt="alt")
+    form
+        input(type="text" class="form-control" placeholder="الاسم ")
+        input(type="text" class="form-control" placeholder="البريد الالكتروني ")
+        input(type="text" class="form-control" placeholder="الجوال ")
+        input(type="text" class="form-control" placeholder="المدينه ")
+        input(type="text" class="form-control" placeholder="الحي ")
+        input(type="password " , class="form-control" , placeholder="كلمة المرور ")
+        input(type="password " , class="form-control" , placeholder=" اعادة كلمة المرور ")
+
+        input(type="text" class="form-control" placeholder="التصنيفات ")
+        input(type="text" class="form-control" placeholder="الحد الادنى للطلب ")
+        input(type="text" class="form-control" placeholder="رسوم التوصيل ")
+        input(type="text" class="form-control" placeholder="الواتس اب ")
+        h6
+            |صورة المتجر  &nbsp;
+            img(src="includes/images/default-image.jpg" style="display:inline-block !important;") 
+        p
+            |بانشاء حسابك أنت توافق على <a href="#"> شروط الاستخدام </a> الخاصه بسفره
+        div(class="text-center") 
+          
+        button دخول 
+       
+include includes/footer
+include includes/scrp

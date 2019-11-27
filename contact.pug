@@ -1,0 +1,27 @@
+include includes/sty
+include includes/header
+div(class="add-offer contact")
+    h2(class="add text-center")
+     | تواصل معنا
+    form
+        input(type="text" class="form-control" placeholder="الاسم ")
+        input(type="text " , class="form-control" , placeholder="البريد")
+        input(type="text" class="form-control" placeholder="الجوال ")
+        textarea(name="", cols="30", rows="3", class="form-control" , placeholder="ما هي رسالتك ؟ ")
+        div(class="radio-div")
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">شكاوي</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">اقتراح</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                <label class="form-check-label" for="inlineRadio3">استعلام</label>
+            </div>
+        button احفظ التعديلات    
+    
+include includes/footer
+include includes/scrp

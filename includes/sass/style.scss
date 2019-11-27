@@ -325,3 +325,58 @@ ADD OFFER
         padding: 0.75rem 6rem;
     }
 }
+
+
+/*
+contact 
+*/
+
+.contact {
+    background: linear-gradient(#E32F52, #B2134D);
+    .add {
+        color: #fff;
+        margin: 2rem 0 4rem;
+    }
+    button {
+        background: #240040;
+        border-color: #240040;
+    }
+    .radio-div {
+        text-align: center;
+        margin: 3rem;
+        font-size: 1.25rem;
+        color: #fff;
+    }
+    .form-check.form-check-inline {
+        margin-left: 2rem;
+    }
+}
+
+
+/*
+login */
+
+.log {
+    background: #fff;
+    position: relative;
+    border-top: 0;
+    box-shadow: 0px 10px 10px 0px #e3dfdf;
+    margin-top: 8rem;
+    .op {
+        color: $mainColor;
+        font-weight: 500;
+    }
+    .user {
+        position: absolute;
+        top: -1rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+            width: 45% !important;
+            box-shadow: 0 0 !important;
+        }
+    }
+    a {
+        color: $mainColor;
+    }
+}
