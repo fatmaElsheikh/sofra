@@ -1,4 +1,4 @@
-.reg, .offers .left .caption button, .cart .caption button, .cart .del, .add-offer button {
+.reg, .offers .left .caption button, .cart .caption button, .cart .del, .add-offer button, .eval .send {
   background: #ED3655;
   color: #fff;
   font-size: 1.5rem;
@@ -320,7 +320,7 @@ resturant page
 .rest h2 {
   text-align: center;
   padding-top: 6rem; }
-.rest .reg, .rest .offers .left .caption button, .offers .left .caption .rest button, .rest .cart .caption button, .cart .caption .rest button, .rest .cart .del, .cart .rest .del, .rest .add-offer button, .add-offer .rest button {
+.rest .reg, .rest .offers .left .caption button, .offers .left .caption .rest button, .rest .cart .caption button, .cart .caption .rest button, .rest .cart .del, .cart .rest .del, .rest .add-offer button, .add-offer .rest button, .rest .eval .send, .eval .rest .send {
   display: block;
   margin: 2rem auto; }
 .rest h3 {
@@ -350,5 +350,160 @@ resturant page
     color: #010101; }
 .rest .container-fluid {
   padding-top: 3rem; }
+
+/*
+meal page
+*/
+.meal .h-eval {
+  margin: 0 !important; }
+.meal .ev {
+  background: #ECECEC;
+  border-radius: 1.5rem;
+  color: #ED3655; }
+.meal .evv {
+  margin: 2rem 0; }
+.meal h3 {
+  color: #ED3655;
+  position: relative;
+  margin: 3rem 0;
+  padding: 0 1rem; }
+  .meal h3:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -0.25rem;
+    width: 3px;
+    height: 150%;
+    background: #240040; }
+.meal .card {
+  width: 80%;
+  margin: 1rem auto;
+  border: 0;
+  border-bottom: 2px solid #eee; }
+  .meal .card h2 {
+    color: #240040;
+    margin-bottom: 2rem; }
+  .meal .card .card-img-top {
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 1rem; }
+.meal .reg, .meal .offers .left .caption button, .offers .left .caption .meal button, .meal .cart .caption button, .cart .caption .meal button, .meal .cart .del, .cart .meal .del, .meal .add-offer button, .add-offer .meal button, .meal .eval .send, .eval .meal .send {
+  display: block;
+  margin: 1rem auto;
+  padding-bottom: 1rem; }
+.meal .info span {
+  color: #ED3655; }
+
+.eval .eval-com {
+  padding: 3rem;
+  background: #E5E5E5;
+  border-radius: 2rem;
+  color: #ED3655;
+  font-size: 1.5rem;
+  margin-top: 1rem; }
+  .eval .eval-com p {
+    padding: 1rem 0; }
+  .eval .eval-com .ev {
+    background: #fff;
+    padding: 0.25rem;
+    border-radius: 1.5rem; }
+.eval textarea.form-control {
+  background: #F9F9F9;
+  padding: 2rem;
+  font-size: 1.25rem;
+  border-radius: 1.5rem;
+  border: 0;
+  box-shadow: 1px 1px 12px 2px #eee; }
+.eval .send {
+  background: linear-gradient(#E53053, #A80E4A) !important;
+  display: block;
+  margin: 2rem auto; }
+
+.owl-carousel img {
+  width: 100%;
+  height: 200px;
+  border-radius: 1rem; }
+
+.owl-container {
+  background: url("../images/offer-bg.jpg") no-repeat;
+  background-size: 150%;
+  overflow: hidden;
+  border-radius: 0; }
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+  background: rgba(246, 154, 141, 0.9);
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #240040;
+  width: 20px;
+  height: 20px; }
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #ED3655; }
+
+/*  modal */
+.modal-title {
+  color: #ED3655;
+  text-align: center; }
+
+.modal-body button {
+  margin: 0.5rem auto;
+  text-align: center;
+  display: block;
+  background: linear-gradient(#E53053, #A80E4A) !important; }
+
+.my-orders .card {
+  background: #ECECEC;
+  margin: 2rem auto; }
+  .my-orders .card .card-img {
+    border-radius: 50%;
+    border: 2px solid #ED3655; }
+  .my-orders .card .card-text {
+    color: #a4a3a3;
+    margin-bottom: 0.25rem !important; }
+  .my-orders .card .card-title {
+    color: #ED3655; }
+  .my-orders .card .receive {
+    background: #008D3E;
+    border-color: #008D3E; }
+  .my-orders .card .receive,
+  .my-orders .card .rej {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    width: 70%;
+    font-size: 1rem;
+    cursor: pointer; }
+
+.move {
+  background: #ED3655;
+  padding: 2rem;
+  color: #fff;
+  letter-spacing: 1; }
+  .move a {
+    color: #fff;
+    text-decoration: none; }
+  .move h5.active {
+    display: inline-block;
+    position: relative; }
+    .move h5.active:after {
+      content: '';
+      position: absolute;
+      height: 3px;
+      width: 130%;
+      background: #240040;
+      bottom: -2.60rem;
+      left: -15%; }
+
+.admin-new .card-img {
+  border: 0 !important; }
+.admin-new .rejj {
+  background: #240040 !important;
+  border-color: #240040 !important; }
 
 /*# sourceMappingURL=style.css.map */

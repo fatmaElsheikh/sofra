@@ -1,0 +1,97 @@
+include includes/sty
+include includes/header
+body
+    div(class="meal")
+        div(class="card")
+            img(src="includes/images/burger.jpg", alt="alt" , class="card-img-top")
+            div(class="card-body")
+                h2(class="text-center") بيف برجر 250 جرام
+                h5(class="card-title") 
+                    img(src="includes/images/piggy-bank.png", alt="alt" , width="25rem")
+                    span &nbsp;السعر : 55 ريال
+                h5(class="card-title") <i class="fas fa-coins"></i> رسوم التوصيل :10 ريال
+                h5(class="card-title")  <i class="far fa-clock"></i> مدة تجهيز الطلب : 20 دقيقه
+        button(class="reg" , type="button",  data-toggle="modal" , data-target="#exampleModal") أضف الى العربه
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> كيف تريد الاستمرار</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <button type="button" class="reg send" data-dismiss="modal">طلب طعام</button>
+                    <button type="button" class="reg send"> بيع طعام </button>
+            </div>
+            
+            </div>
+        </div>
+        </div>
+
+
+        div(class="eval")
+            div(class="container")
+                h4(class="info")
+                    <i class="fas fa-exclamation-circle"></i> <span>معلومات عن هذا المتجر </span>
+                h3(class="")
+                    |تقيمات المستخدمين
+                p(class="eval-sum")
+                    | تقييم 155
+                div(class="eval-com")
+                    div(class="hdr d-flex")
+                        div(class="p-2 mr-auto")  بواسطة محمد محروس
+                        div(class="p-2 mr-auto ev") <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        div(class="p-2 mr-auto")
+                    p(class="text-center ")
+                        |لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                div(class="eval-com")
+                    div(class="hdr d-flex")
+                        div(class="p-2 mr-auto")  بواسطة محمد محروس
+                        div(class="p-2 mr-auto ev") <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        div(class="p-2 mr-auto")
+                    p(class="text-center ")
+                        |لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                div(class="eval-com")
+                    div(class="hdr d-flex")
+                        div(class="p-2 mr-auto")  بواسطة محمد محروس
+                        div(class="p-2 mr-auto ev") <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        div(class="p-2 mr-auto")
+                    p(class="text-center ")
+                        |لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                div(class="eval-com")
+                    div(class="hdr d-flex")
+                        div(class="p-2 mr-auto")  بواسطة محمد محروس
+                        div(class="p-2 mr-auto ev") <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                        div(class="p-2 mr-auto")
+                    p(class="text-center ")
+                        |لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                div(class="d-flex evv")
+                    div(class="p-2 mr-auto")
+                        h3( class="h-eval") أضف تقييمك
+                    div(class="p-2 mr-auto ev") <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    div(class="p-2 mr-auto")
+                textarea(name="", class="form-control", rows="5" , placeholder="أضف تقييمك")
+                button(class="send") 
+                    | ارسال
+                h3()  المزيد من أكلات هذا المطعم
+        div(class="owl-container")
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="includes/images/burger.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/brian-chan-12169-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/fabrice-adjanor-804096-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/burger.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/brian-chan-12169-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/erik-odiin-787777-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/burger.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/brian-chan-12169-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/fabrice-adjanor-804096-unsplash.jpg" alt=""></div>
+                <div class="item"><img src="includes/images/burger.jpg" alt=""></div>
+
+        
+                        
+
+                
+include includes/footer
+include includes/scrp
